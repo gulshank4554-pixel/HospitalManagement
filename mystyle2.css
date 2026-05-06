@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #f8f9fa;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #005f73, #0a9396);
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+  background: #94d2bd;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.btn {
+  background: #005f73;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #0a9396;
+}
+
+/* Services */
+.service-item {
+  background: white;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Form */
+form {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;       /* inside space */
+  margin-bottom: 15px; /* space between fields */
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  background: #005f73;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+
+form button:hover {
+  background: #0a9396;
+}
+
+/* Footer */
+footer {
+  background: #003049;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
